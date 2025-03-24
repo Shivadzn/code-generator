@@ -1,0 +1,16 @@
+# Backend Dependencies
+fastapi==0.110.0
+uvicorn==0.29.0
+pydantic==2.7.0
+requests==2.31.0
+python-dotenv==1.0.1
+fastapi-cors==0.1.11  # If using CORS middleware
+httpx==0.27.0  # Required by FastAPI for async requests
+
+# Standard Utility Libraries
+uuid  # Generates unique IDs
+functools  # Caching & optimization
+typing  # Type hinting
+
+# Frontend Dependencies (Streamlit)
+streamlit==1.31.1
