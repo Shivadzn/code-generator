@@ -45,4 +45,25 @@ An intelligent code generation system powered by state-of-the-art language model
   - Pre-configured CI/CD templates
   - Modular code architecture
 
-## Technology Stack 🛠️
+## Technology Stack
+
+
+### Example Table
+
+Here’s an example of a table that you might include in your README:
+
+```markdown
+## Configuration ⚙️
+
+### Tips for Creating Tables
+
+1. **Alignment**: You can control the alignment of the text in the columns by adding colons (`:`) in the header separator line:
+   - `:---` for left alignment
+   - `:---:` for center alignment
+   - `---:` for right alignment
+
+   Example:
+   ```markdown
+   | Left Aligned | Center Aligned | Right Aligned |
+   |:------------- |:--------------:|--------------:|
+   | Data 1       | Data 2         | Data 3       |
