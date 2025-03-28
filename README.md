@@ -4,6 +4,9 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-High%20Performance-green)](https://fastapi.tiangolo.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+Overview
+
+The Code Generator API is a scalable and efficient system for AI-driven code generation, designed for developers, educators, and AI enthusiasts. This system allows users to input prompts and receive corresponding code in multiple programming languages.
 A FastAPI-powered web service that integrates the `mistralai/Mistral-7B-Instruct-v0.1` model to generate high-quality code in various programming languages based on user prompts.
 
 ![System Architecture](https://via.placeholder.com/800x400.png?text=Backend+%2B+Frontend+Architecture)
@@ -43,8 +46,13 @@ The **Code Generator API** is a scalable and efficient system for AI-driven code
 
 ## Project Structure  
 
-code-generator/ ├── app/ │ ├── backend.py # FastAPI backend logic │ ├── frontend.py # Streamlit frontend logic (upcoming feature) ├── .gitignore # Files to be ignored by Git ├── requirements.txt # Dependencies ├── README.md # Project documentation
-
+code-generator/
+├── app/
+│   ├── backend.py   # FastAPI backend logic
+│   ├── frontend.py  # Streamlit frontend logic (upcoming feature)
+├── .gitignore       # Files to be ignored by Git
+├── requirements.txt # Dependencies
+├── README.md        # Project documentation
 
 ---
 
@@ -91,8 +99,8 @@ curl -X POST "http://127.0.0.1:8000/generate" \
 # Deployment
 This project can be deployed using:
 
-- Hugging Face Spaces
-
+- Hugging Face Spaces<br>
+ - The API is live on Hugging Face Spaces. You can access it at:🔗 https://huggingface.co/spaces/shiva9876/write_any_code
 - Docker
 
 - Cloud Services (AWS/GCP/Azure)
